@@ -1,31 +1,19 @@
 fileFormatVersion: 2
-guid: b2a071619c62cce43a5fcf908c0cd4e8
+guid: 96092cccd869be945bb09fbc133e2cb3
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -1858625786239320943
-    second: Ghost 3_0
+      213: -1434801676565703740
+    second: Power Pellet_0
   - first:
-      213: 7170153059638520266
-    second: Ghost 3_1
+      213: -5713707397234246068
+    second: Power Pellet_1
   - first:
-      213: 5403265111540458778
-    second: Ghost 3_2
+      213: 8138051047494447433
+    second: Power Pellet_2
   - first:
-      213: -8509640910250434094
-    second: Ghost 3_3
-  - first:
-      213: 656405666562719059
-    second: Ghost 3_4
-  - first:
-      213: -9134885203587251347
-    second: Ghost 3_5
-  - first:
-      213: -2542507837360353201
-    second: Ghost 3_6
-  - first:
-      213: -6802544654195658892
-    second: Ghost 3_7
+      213: 6888094723885455183
+    second: Power Pellet_3
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -71,7 +59,7 @@ TextureImporter:
   spritePivot: {x: 0.5, y: 0.5}
   spritePixelsToUnits: 100
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
-  spriteGenerateFallbackPhysicsShape: 0
+  spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
   alphaIsTransparency: 1
   spriteTessellationDetail: -1
@@ -110,13 +98,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Ghost 3_0
+      name: Power Pellet_0
       rect:
         serializedVersion: 2
-        x: 351
-        y: 2336
-        width: 323
-        height: 450
+        x: 384
+        y: 1408
+        width: 256
+        height: 256
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -124,20 +112,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 19cf2d0e1b5d436e0800000000000000
-      internalID: -1858625786239320943
+      spriteID: 4c39a212a7f861ce0800000000000000
+      internalID: -1434801676565703740
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Ghost 3_1
+      name: Power Pellet_1
       rect:
         serializedVersion: 2
-        x: 1376
-        y: 2336
-        width: 321
-        height: 450
+        x: 1408
+        y: 1408
+        width: 256
+        height: 256
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -145,20 +133,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ac92fe8f730818360800000000000000
-      internalID: 7170153059638520266
+      spriteID: c4eb45d0565d4b0b0800000000000000
+      internalID: -5713707397234246068
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Ghost 3_2
+      name: Power Pellet_2
       rect:
         serializedVersion: 2
-        x: 2399
-        y: 2336
-        width: 322
-        height: 450
+        x: 384
+        y: 384
+        width: 256
+        height: 256
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -166,20 +154,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a1561a0cdf04cfa40800000000000000
-      internalID: 5403265111540458778
+      spriteID: 941f6e97f4a20f070800000000000000
+      internalID: 8138051047494447433
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Ghost 3_3
+      name: Power Pellet_3
       rect:
         serializedVersion: 2
-        x: 351
-        y: 1311
-        width: 323
-        height: 450
+        x: 1408
+        y: 384
+        width: 256
+        height: 256
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -187,92 +175,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2d1246a9daea7e980800000000000000
-      internalID: -8509640910250434094
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Ghost 3_4
-      rect:
-        serializedVersion: 2
-        x: 1376
-        y: 1311
-        width: 321
-        height: 450
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 35d3608d9750c1900800000000000000
-      internalID: 656405666562719059
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Ghost 3_5
-      rect:
-        serializedVersion: 2
-        x: 2399
-        y: 1311
-        width: 322
-        height: 450
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: d63c5385e4e5a3180800000000000000
-      internalID: -9134885203587251347
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Ghost 3_6
-      rect:
-        serializedVersion: 2
-        x: 351
-        y: 287
-        width: 323
-        height: 450
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: f405d7bb79237bcd0800000000000000
-      internalID: -2542507837360353201
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Ghost 3_7
-      rect:
-        serializedVersion: 2
-        x: 1376
-        y: 287
-        width: 321
-        height: 450
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 47f6fedada18891a0800000000000000
-      internalID: -6802544654195658892
+      spriteID: f475f6c18ad679f50800000000000000
+      internalID: 6888094723885455183
       vertices: []
       indices: 
       edges: []
