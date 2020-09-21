@@ -7,6 +7,13 @@ public class LevelGenerator : MonoBehaviour
     float x = 0;
     float y = 0; 
     public Object Outside_Corner;
+    public Object Outside_Wall;
+    public Object Inside_Corner;
+    public Object Inside_Wall;
+    public Object Power_Pellet;
+    public Object Normal_Pellet;
+    public Object Junction;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -31,16 +38,85 @@ public class LevelGenerator : MonoBehaviour
 
         foreach (int i in levelMap)
         {
-           // int mapNumber = i;
-           // if (i = 1) {
+           int mapNumber = i;
+            if (mapNumber == 1)
+            {
                 Instantiate(Outside_Corner, new Vector3(x, y, 0), Quaternion.identity);
-                x = x + 6.5f;
-                if (x == 91)
+                x = x + 7;
+                if (x == 98)
                 {
-                    y = y + 6.5f;
+                    y = y + 7;
                     x = 0;
-               }
-           // }
+                }
+
+               
+            }
+            if (mapNumber == 2)
+            {
+                Instantiate(Outside_Wall, new Vector3(x, y, 0), Quaternion.identity);
+                x = x + 7;
+                if (x == 98)
+                {
+                    y = y + 7;
+                    x = 0;
+                }
+            }
+
+            if (mapNumber == 3)
+            {
+                Instantiate(Inside_Corner, new Vector3(x, y, 0), Quaternion.identity);
+                x = x + 7;
+                if (x == 98)
+                {
+                    y = y + 7;
+                    x = 0;
+                }
+            }
+
+            if (mapNumber == 4)
+            {
+                Instantiate(Inside_Wall, new Vector3(x, y, 0), Quaternion.identity);
+                x = x + 7;
+                if (x == 98)
+                {
+                    y = y + 7;
+                    x = 0;
+                }
+            }
+
+            if (mapNumber == 5)
+            {
+                Instantiate(Normal_Pellet, new Vector3(x, y, 0), Quaternion.identity);
+                x = x + 7;
+                if (x == 98)
+                {
+                    y = y + 7;
+                    x = 0;
+                }
+            }
+
+            if (mapNumber == 6)
+            {
+                Instantiate(Power_Pellet, new Vector3(x, y, 0), Quaternion.identity);
+                x = x + 7f;
+                if (x == 98)
+                {
+                    y = y + 7f;
+                    x = 0;
+                }
+            }
+
+            if (mapNumber == 7)
+            {
+                Instantiate(Junction, new Vector3(x, y, 0), Quaternion.identity);
+                x = x + 7f;
+                if (x == 98)
+                {
+                    y = y + 7f;
+                    x = 0;
+                }
+            }
+
         } 
         
         
@@ -52,3 +128,4 @@ public class LevelGenerator : MonoBehaviour
         
     }
 }
+
