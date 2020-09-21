@@ -5,7 +5,7 @@ using UnityEngine;
 public class LevelGenerator : MonoBehaviour
 {
     float x = 0;
-    float y = 0; 
+    float y = 90; 
     public Object Outside_Corner;
     public Object Outside_Wall;
     public Object Inside_Corner;
@@ -45,7 +45,7 @@ public class LevelGenerator : MonoBehaviour
                 x = x + 7;
                 if (x == 98)
                 {
-                    y = y + 7;
+                    y = y - 7;
                     x = 0;
                 }
 
@@ -57,7 +57,7 @@ public class LevelGenerator : MonoBehaviour
                 x = x + 7;
                 if (x == 98)
                 {
-                    y = y + 7;
+                    y = y - 7;
                     x = 0;
                 }
             }
@@ -68,7 +68,7 @@ public class LevelGenerator : MonoBehaviour
                 x = x + 7;
                 if (x == 98)
                 {
-                    y = y + 7;
+                    y = y - 7;
                     x = 0;
                 }
             }
@@ -79,7 +79,7 @@ public class LevelGenerator : MonoBehaviour
                 x = x + 7;
                 if (x == 98)
                 {
-                    y = y + 7;
+                    y = y - 7;
                     x = 0;
                 }
             }
@@ -90,7 +90,7 @@ public class LevelGenerator : MonoBehaviour
                 x = x + 7;
                 if (x == 98)
                 {
-                    y = y + 7;
+                    y = y - 7;
                     x = 0;
                 }
             }
@@ -101,7 +101,7 @@ public class LevelGenerator : MonoBehaviour
                 x = x + 7f;
                 if (x == 98)
                 {
-                    y = y + 7f;
+                    y = y - 7f;
                     x = 0;
                 }
             }
@@ -112,7 +112,7 @@ public class LevelGenerator : MonoBehaviour
                 x = x + 7f;
                 if (x == 98)
                 {
-                    y = y + 7f;
+                    y = y - 7f;
                     x = 0;
                 }
             }
